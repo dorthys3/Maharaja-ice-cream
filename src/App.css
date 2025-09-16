@@ -1,0 +1,70 @@
+.Nav{
+  background-color:#c02080;
+}
+.Welcome-content img{
+  height:500px;
+  width:700px;
+}
+.Welcome-txt {
+  color:#a10a62;
+}
+.about-content h1{
+  font-family: 'Times New Roman', Times, serif;
+  color:#a10a62;
+  font-style:normal;
+}
+.prof-content, .profile h3{
+  color:#c02080;
+}
+.box-img-2{
+  height:80px;
+  width:700px;
+}
+.box-img-1 h2{
+    font-family: 'Times New Roman', Times, serif;
+  color:#a10a62;
+  font-style:normal;
+  font-weight: bold;
+}
+.imgs-txts{
+  color:#a10a62;
+}
+.img-fluid{
+  height:300px;
+  width:300px;
+}
+.btn1{
+  color:#a10a62;
+  font-weight:bold ;
+}
+.btn1:hover{
+  color:#000000;
+}
+.Menu-txt h2{
+   color:#a10a62;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+}
+.pgs-1{
+  margin-top: 50px;
+}
+.pgs-1:hover{
+    background-color: #fde0f1;
+    transition: 0.5s ease;
+}
+.contact-title h2, .last-content-1 h3 , .last-content-2 h3{
+  color:#a10a62;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+}
+.form-group{
+  font-size: large;
+  font-weight: bold;
+}
+.name{
+  color:red;
+}
+.imgsssss{
+  height:90px;
+  width:90px;
+}
