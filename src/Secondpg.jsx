@@ -10,10 +10,20 @@ const Secondpg = () => {
           </div><br></br><br></br>
           <div className="Welcome-content">
               <div className="row">
-                  <div class="col-lg-6 col-md-1 col-sm-12 col-xs-12">
-                      <img src={logo3} alt="noimg"/>
+                  <div className="col-lg-6 col-md-1 col-sm-12 col-xs-12">
+                      <img
+                        src={logo3}
+                        alt="noimg"
+                        style={{
+                          width: '100%',
+                          height: 'auto',
+                          maxWidth: '400px',
+                          display: 'block',
+                          margin: '0 auto'
+                        }}
+                      />
                   </div>
-                  <div class="col-lg-6 col-md-1 col-sm-12 col-xs-12">
+                  <div className="col-lg-6 col-md-1 col-sm-12 col-xs-12" style={{textAlign:'justify'}}>
                       <h2>A Creamy Delight That</h2>
                       <h2>Challenges Your Taste</h2><br></br>
                       <p><strong>Maharaja Ice cream </strong>spreads the happiness <strong>across India</strong> to people of all ages. We are known to be beating the heat with refreshing and healthy Fruttare, professing your love with  crunching away all your worries with our <strong>ice cream </strong>feast that brightens your dull day with our <strong>delicious ice cream, sharing sweet victories</strong> with your beloved ones with <strong>Kulfeez or special experience</strong> with frozen treat in your life. <strong>Maharaja Ice cream</strong> is committed to excellence and zeal in <strong>this field since 2004.</strong> We are known to be dedicated in <strong>manufacturing and marketing</strong> world class quality superior ice cream made with <strong>pure milk and cream.</strong> Our main aim is to always determine in <strong>maintaining integrity and commitment in providing quality and value.</strong> We provide delicious ice cream at reasonable price.Whether you’re cooling off with our refreshing and <strong>healthy Fruttare</strong>

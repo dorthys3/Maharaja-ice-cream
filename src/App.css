@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .Nav{
   background-color:#c02080;
 }

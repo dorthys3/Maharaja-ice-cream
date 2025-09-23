@@ -2,11 +2,18 @@ import logo18 from './assets/logo18.jpg'
 const Sixthpg = () => {
   return (
     <div>
+        <section id="contactpg">
        <div className="contact-title">
                   <center><strong><h1 style={{color:'#a10a62'}}>CONTACT US</h1></strong><br></br><br></br>
                   <h4>Main Office</h4>
                   <h5><i class="fa fa-map-marker"></i> No.14/2, Police manickam Street, Ayanavaram,Chennai - 600 023</h5></center>
-                  <center><img src={logo18} alt="noimg"/></center><br></br>
+                  <center><img src={logo18} alt="noimg" style={{
+                          width: '100%',
+                          height: 'auto',
+                          maxWidth: '400px',
+                          display: 'block',
+                          margin: '0 auto'
+                        }}/></center><br></br>
                   <div className="last-content">
                                   <center><div className="last-content-1">
                                       <h3>RETAIL</h3>
@@ -39,6 +46,7 @@ const Sixthpg = () => {
         <button type="submit" class="btn btn-primary">Submit</button>
         </center>
    </form>
+   </section>
     </div>
   )
 }

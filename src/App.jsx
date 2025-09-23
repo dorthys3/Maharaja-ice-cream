@@ -5,22 +5,18 @@ import Secondpg from './Secondpg';
 import Thirdpg from './Thirdpg';
 import Fourthpg from './Fourthpg';
 import Fifthpg from './Fifthpg';
-import { Routes, Route, Link } from "react-router-dom";
 import Sixthpg from './Sixthpg';
 function App() {
   
   return (
-
-     <div>
-      <Firstpg/>
-      <Routes>
-        <Route path="/" element={<Secondpg />} />
-        <Route path="/about" element={<Thirdpg  />} />
-        <Route path="/icecream" element={<Fourthpg  />} />
-        <Route path="/gallary" element={<Fifthpg />} />
-        <Route path="/contact" element={<Sixthpg />} />
-      </Routes>
-    </div> 
+    <div>
+      <Firstpg />
+      <Secondpg/>
+      <Thirdpg/>
+      <Fourthpg/>
+      <Fifthpg/>
+      <Sixthpg/>
+    </div>
   )
 }
 

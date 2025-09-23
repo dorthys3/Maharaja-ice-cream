@@ -14,7 +14,7 @@ import logo17 from './assets/logo17.jpg'
 const Fourthpg = () => {
   return (
     <div>
-      <section id="homepg">
+      <section id="icecreampg">
                   <div className="Menu-txt">
                       <h1 style={{color:'#a10a62'}}><center><b>OUR MENU</b></center></h1>
                   </div><br></br><br></br>

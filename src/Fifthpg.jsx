@@ -15,6 +15,7 @@ import logo3 from './assets/logo3.png'
 const Fifthpg = () => {
   return (
     <div>
+        <section id="gallarypg">
       <div className="Gallery-txt">
                       <h1 style={{color:'#a10a62'}}><center><b>OUR GALLERY</b></center></h1>
               </div><br></br><br></br>
@@ -77,6 +78,7 @@ const Fifthpg = () => {
                           </div>
                   </div>
               </div><br></br>
+              </section>
     </div>
   )
 }
